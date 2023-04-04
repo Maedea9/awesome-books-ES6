@@ -1,5 +1,5 @@
-import Books from './awesomebooks/modules/booksclass.js';
-import { DateTime } from './node_modules/luxon/src/luxon.js';
+import Books from './modules/booksclass.js';
+import { DateTime } from '../node_modules/luxon/src/luxon.js';
 
 const currentDate = () => {
   const date = DateTime.now().toLocaleString(DateTime.DATETIME_MED);
