@@ -1,10 +1,6 @@
 import Books from './modules/booksclass.js';
-import { DateTime } from '../node_modules/luxon/src/luxon.js';
+import currentDate from './modules/currentDate.js';
 
-const currentDate = () => {
-  const date = DateTime.now().toLocaleString(DateTime.DATETIME_MED);
-  document.getElementById('datetime').innerHTML = date;
-};
 // navbar functionality
 const navlist = document.querySelector('.navList');
 const navadd = document.querySelector('.navAdd');
