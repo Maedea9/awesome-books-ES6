@@ -10,12 +10,17 @@ Week 2 Day 1 ES6 activity
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-the-project)
+- [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
+   - [Tech Stack](#tech-stack)
+   - [Key Features](#key-features)
+   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
   - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -23,7 +28,7 @@ Week 2 Day 1 ES6 activity
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [Awesome Books ES6] <a name="about-project"></a>
+# 📖 Awesome Books ES6 <a name="about-project"></a>
 
 **[Awesome Books with ES6]** is a project for the full time program in Microverse in which HTML, CSS and JavaScript technologies are applied.
 
@@ -42,21 +47,6 @@ Week 2 Day 1 ES6 activity
     <li><a href=["https://github.com/microverseinc/linters-config">Linters Config</a></li>
   </ul>
 </details>
-
-## 💻Getting Started <a name="getting-started"></a>
-To get a local copy up and running, follow these steps.
-### Prerequisites
-In order to run this project you need:
-+ Basic HTML, CSS and JavaScript knowledge
-+ A computer with an internet connection
-+ A web browser
-
-### Setup
-Clone this repository to your computer
-
-### Usage
-To run the project, execute the "index.html" file in your browser
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Key Features <a name="key-features"></a>
 
@@ -80,6 +70,47 @@ To run the project, execute the "index.html" file in your browser
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://enchanting-centaur-6b4d71.netlify.app)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💻Getting Started <a name="getting-started"></a>
+To get a local copy up and running, follow these steps.
+### Prerequisites
+In order to run this project you need:
++ Basic HTML, CSS and JavaScript knowledge
++ A computer with an internet connection
++ A web browser
+
+### Setup
+Clone this repository to your computer
+
+### Usage
+To run the project, execute the "index.html" file in your browser
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Run tests
+
+To run tests, run the following command:
+
+```sh
+  To check the HTML functionality use: 'npx hint .'
+```
+
+```sh
+  To check the CSS functionality use: 'npx stylelint "**/*.{css,scss}"'
+```
+
+```sh
+  To check the JavaScript functionality use: 'npx eslint."'
+```
+
+### Deployment
+
+You can deploy this project using:
+
+```sh
+GitHub pages.
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
