@@ -17,6 +17,7 @@ Week 2 Day 1 ES6 activity
   - [Setup](#setup)
   - [Usage](#usage)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -90,6 +91,11 @@ To run the project, execute the "index.html" file in your browser
 - Twitter: [@MelanieCascant6](https://twitter.com/MelanieCascant6)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/melanie-cascante-938a93228/)
 
+## 🔭 Future Features <a name="future-features"></a>
+
+- **-Making the page  more responsive** : Adding more than 1 breaking point.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
 Contributions, issues, and feature requests are welcome!
