@@ -78,7 +78,7 @@ To run the project, execute the "index.html" file in your browser
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://maedea9.github.io/awesome-books-ES6/)
+- [Live Demo Link](https://enchanting-centaur-6b4d71.netlify.app)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
