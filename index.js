@@ -1,10 +1,10 @@
 import Books from './modules/booksclass.js';
-/*import { DateTime } from '../node_modules/luxon/src/luxon.js';
+import { DateTime } from '../node_modules/luxon/src/luxon.js';
 
 const currentDate = () => {
   const date = DateTime.now().toLocaleString(DateTime.DATETIME_MED);
   document.getElementById('datetime').innerHTML = date;
-};*/
+};
 // navbar functionality
 const navlist = document.querySelector('.navList');
 const navadd = document.querySelector('.navAdd');
@@ -38,4 +38,4 @@ if (localStorage.getItem('createdBooks')) {
   awesomeBooks.books = JSON.parse(localStorage.getItem('createdBooks'));
   awesomeBooks.displayBooks();
 }
-/*document.addEventListener('DOMContentLoaded', currentDate());*/
+document.addEventListener('DOMContentLoaded', currentDate());
