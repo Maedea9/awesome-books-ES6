@@ -1,0 +1,198 @@
+* {
+  font-family: 'Comic Neue', cursive;
+  margin: 2% 2%;
+}
+
+html {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+header {
+  margin: 0;
+}
+
+.navBar {
+  display: flex;
+  border: #000 3px solid;
+  align-items: center;
+  margin: 0.5% 1%;
+  width: 98%;
+  justify-content: space-between;
+  justify-self: center;
+}
+
+.nbTitle {
+  padding-left: 4%;
+}
+
+nav {
+  display: flex;
+  width: 50%;
+  margin: 0;
+  padding-right: 1%;
+}
+
+.list {
+  width: 90%;
+  align-self: center;
+  justify-content: center;
+}
+
+.bookList-add-contact {
+  display: flex;
+  width: 90%;
+  list-style: none;
+  padding: 0;
+  justify-content: end;
+  gap: 3px;
+}
+
+.bookList-add-contact li {
+  cursor: pointer;
+}
+
+.navAdd {
+  display: flex;
+}
+
+span {
+  margin: 0;
+  background-color: #000;
+  height: 90%;
+  width: 1px;
+  align-self: center;
+}
+
+#datetime {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  margin: 0;
+  width: 100%;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin: 0 2%;
+}
+
+.book-list-conatiner {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.subtitle {
+  display: flex;
+  justify-content: center;
+}
+
+#bookList {
+  display: flex;
+  flex-direction: column;
+  border: #000 3px solid;
+  list-style: none;
+  padding: 0;
+}
+
+.book-infocss {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background-color: lightgray;
+  margin: 0;
+  align-self: center;
+}
+
+li p {
+  font-size: 14px;
+}
+
+li:nth-child(even) {
+  background-color: #fff;
+}
+
+button {
+  border: #000 2.5px solid;
+  background-color: #fff;
+  box-shadow: 1.5px 2px #000;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 50%;
+  padding: 0 3%;
+}
+
+input {
+  border: #000 2.5px solid;
+}
+
+#submit {
+  border: #000 2.5px solid;
+  background-color: #fff;
+  font-family: 'Comic Neue', cursive;
+  width: 25%;
+  align-self: flex-end;
+  padding: 0 3%;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  margin: 2% 10%;
+}
+
+.contact-info h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-ul li {
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 1% 3%;
+  border: #000 3px solid;
+  gap: 20px;
+}
+
+footer h6 {
+  font-size: 12px;
+}
+
+.hide {
+  display: none;
+}
